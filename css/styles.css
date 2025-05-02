@@ -1,0 +1,116 @@
+/* Reset y base */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+body {
+    background-color: #f0f2f5;
+    padding: 2rem;
+    color: #333;
+}
+  
+  /* Título */
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #2c3e50;
+}
+
+/* Contenedor de actividades */
+
+#actividades-container,
+#resumen-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+/* Card de actividad */
+.actividad
+.actividad-resumen {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    padding: 1rem;
+    transition: transform 0.2s ease;
+}
+  
+.actividad:hover,
+.actividad-resumen:hover {
+    transform: scale(1.02);
+}
+  
+.actividad h3,
+.actividad-resumen h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+  
+.actividad p,
+.actividad-resumen p {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+/* Mensajes */
+
+.mensaje {
+    margin: 1rem auto;
+    padding: 0.75rem 1rem;
+    max-width: 600px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 1rem;
+    display: none;
+}
+
+.mensaje.exito{
+    display: block;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.mensaje.error {
+    display: block;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Botones */
+button {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+button:hover {
+    background-color: #b929a1;
+}
+  
+/* Enlace de navegación */
+a {
+    display: inline-block;
+    margin: 2rem auto 0;
+    text-align: center;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+a:hover {
+    text-decoration: underline;
+}
