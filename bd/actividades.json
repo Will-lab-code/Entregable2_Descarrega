@@ -1,0 +1,7 @@
+[
+    {"id": 1, "nombre": "Estudiar JS", "duracion": 60},
+    {"id": 2, "nombre": "Leer 10 páginas de un libro", "duracion": 30},
+    {"id": 3, "nombre": "Salir a caminar", "duracion": 45},
+    {"id": 4, "nombre": "Practicar guitarra", "duracion": 40},
+    {"id": 5, "nombre": "Organizar el día", "duracion": 20}
+]
